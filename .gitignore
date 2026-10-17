@@ -1,0 +1,15 @@
+# Variables de entorno con secretos (mantén .env.example o .env.example)
+.env
+.env.*
+!.env.example
+
+# Binarios generados
+/api
+*.exe
+*.out
+
+# Archivos de sistema y editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
